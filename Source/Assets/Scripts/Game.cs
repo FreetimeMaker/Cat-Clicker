@@ -13,6 +13,15 @@ public class Game : MonoBehaviour
     public float x;
     public float CurrentButton;
 
+    public GameObject ShopButton;
+    public GameObject ChangeLogButton;
+    public GameObject CL;
+    public GameObject Cats;
+    public GameObject Version;
+    public GameObject SHOP;
+    public GameObject Hintergrund;
+    public GameObject Cats1;
+
     public GameObject Cat1;
     public GameObject Cat2;
     public GameObject Cat3;
@@ -231,6 +240,426 @@ public class Game : MonoBehaviour
                 x *= 2;
                 shop6price *= 3;
             }
+        }
+    }
+
+    public void OpenCL()
+    {
+        ShopButton.SetActive(false);
+        Cats.SetActive(false);
+        Version.SetActive(false);
+        ChangeLogButton.SetActive(false);
+        CL.SetActive(true);
+
+        if (CurrentButton == 0)
+        {
+            Cat1.SetActive(false);
+        }
+
+        if (CurrentButton == 1)
+        {
+            Cat2.SetActive(false);
+        }
+        if (CurrentButton == 2)
+        {
+            Cat3.SetActive(false);
+        }
+        
+        if (CurrentButton == 3)
+        {
+            Cat4.SetActive(false);
+        }
+
+        if (CurrentButton == 4)
+        {
+            Cat5.SetActive(false);
+        }
+
+        if (CurrentButton == 5)
+        {
+            Cat6.SetActive(false);
+        }
+        if (CurrentButton == 6)
+        {
+            Cat7.SetActive(false);
+        }
+        
+        if (CurrentButton == 7)
+        {
+            Cat8.SetActive(false);
+        }
+
+        if (CurrentButton == 8)
+        {
+            Cat9.SetActive(false);
+        }
+
+        if (CurrentButton == 9)
+        {
+            Cat10.SetActive(false);
+        }
+        if (CurrentButton == 10)
+        {
+            Cat11.SetActive(false);
+        }
+        
+        if (CurrentButton == 11)
+        {
+            Cat12.SetActive(false);
+        }
+
+        if (CurrentButton == 12)
+        {
+            Cat13.SetActive(false);
+        }
+
+        if (CurrentButton == 13)
+        {
+            Cat14.SetActive(false);
+        }
+        if (CurrentButton == 14)
+        {
+            Cat15.SetActive(false);
+        }
+        
+        if (CurrentButton == 15)
+        {
+            Cat16.SetActive(false);
+        }
+
+        if (CurrentButton == 16)
+        {
+            Cat17.SetActive(false);
+        }
+
+        if (CurrentButton == 17)
+        {
+            Cat18.SetActive(false);
+        }
+        if (CurrentButton == 18)
+        {
+            Cat19.SetActive(false);
+        }
+        
+        if (CurrentButton == 19)
+        {
+            Cat20.SetActive(false);
+        }
+    }
+
+    public void CloseCL()
+    {
+        ShopButton.SetActive(true);
+        Cats.SetActive(true);
+        Version.SetActive(true);
+        ChangeLogButton.SetActive(true);
+        CL.SetActive(false);
+
+        if (CurrentButton == 0)
+        {
+            Cat1.SetActive(true);
+        }
+
+        if (CurrentButton == 1)
+        {
+            Cat2.SetActive(true);
+        }
+        if (CurrentButton == 2)
+        {
+            Cat3.SetActive(true);
+        }
+        
+        if (CurrentButton == 3)
+        {
+            Cat4.SetActive(true);
+        }
+
+        if (CurrentButton == 4)
+        {
+            Cat5.SetActive(true);
+        }
+
+        if (CurrentButton == 5)
+        {
+            Cat6.SetActive(true);
+        }
+        if (CurrentButton == 6)
+        {
+            Cat7.SetActive(true);
+        }
+        
+        if (CurrentButton == 7)
+        {
+            Cat8.SetActive(true);
+        }
+
+        if (CurrentButton == 8)
+        {
+            Cat9.SetActive(true);
+        }
+
+        if (CurrentButton == 9)
+        {
+            Cat10.SetActive(true);
+        }
+        if (CurrentButton == 10)
+        {
+            Cat11.SetActive(true);
+        }
+        
+        if (CurrentButton == 11)
+        {
+            Cat12.SetActive(true);
+        }
+
+        if (CurrentButton == 12)
+        {
+            Cat13.SetActive(true);
+        }
+
+        if (CurrentButton == 13)
+        {
+            Cat14.SetActive(true);
+        }
+        if (CurrentButton == 14)
+        {
+            Cat15.SetActive(true);
+        }
+        
+        if (CurrentButton == 15)
+        {
+            Cat16.SetActive(true);
+        }
+
+        if (CurrentButton == 16)
+        {
+            Cat17.SetActive(true);
+        }
+
+        if (CurrentButton == 17)
+        {
+            Cat18.SetActive(true);
+        }
+        if (CurrentButton == 18)
+        {
+            Cat19.SetActive(true);
+        }
+        
+        if (CurrentButton == 19)
+        {
+            Cat20.SetActive(true);
+        }
+    }
+
+    public void OpenShop()
+    {
+        ShopButton.SetActive(false);
+        SHOP.SetActive(true);
+        Cats.SetActive(false);
+        Version.SetActive(false);
+        ChangeLogButton.SetActive(false);
+        Hintergrund.SetActive(false);
+        Cats1.SetActive(true);
+
+        if (CurrentButton == 0)
+        {
+            Cat1.SetActive(false);
+        }
+
+        if (CurrentButton == 1)
+        {
+            Cat2.SetActive(false);
+        }
+        if (CurrentButton == 2)
+        {
+            Cat3.SetActive(false);
+        }
+        
+        if (CurrentButton == 3)
+        {
+            Cat4.SetActive(false);
+        }
+
+        if (CurrentButton == 4)
+        {
+            Cat5.SetActive(false);
+        }
+
+        if (CurrentButton == 5)
+        {
+            Cat6.SetActive(false);
+        }
+        if (CurrentButton == 6)
+        {
+            Cat7.SetActive(false);
+        }
+        
+        if (CurrentButton == 7)
+        {
+            Cat8.SetActive(false);
+        }
+
+        if (CurrentButton == 8)
+        {
+            Cat9.SetActive(false);
+        }
+
+        if (CurrentButton == 9)
+        {
+            Cat10.SetActive(false);
+        }
+        if (CurrentButton == 10)
+        {
+            Cat11.SetActive(false);
+        }
+        
+        if (CurrentButton == 11)
+        {
+            Cat12.SetActive(false);
+        }
+
+        if (CurrentButton == 12)
+        {
+            Cat13.SetActive(false);
+        }
+
+        if (CurrentButton == 13)
+        {
+            Cat14.SetActive(false);
+        }
+        if (CurrentButton == 14)
+        {
+            Cat15.SetActive(false);
+        }
+        
+        if (CurrentButton == 15)
+        {
+            Cat16.SetActive(false);
+        }
+
+        if (CurrentButton == 16)
+        {
+            Cat17.SetActive(false);
+        }
+
+        if (CurrentButton == 17)
+        {
+            Cat18.SetActive(false);
+        }
+        if (CurrentButton == 18)
+        {
+            Cat19.SetActive(false);
+        }
+        
+        if (CurrentButton == 19)
+        {
+            Cat20.SetActive(false);
+        }
+    }
+
+    public void CloseShop()
+    {
+        ShopButton.SetActive(true);
+        SHOP.SetActive(false);
+        Cats.SetActive(true);
+        Version.SetActive(true);
+        ChangeLogButton.SetActive(true);
+        Hintergrund.SetActive(true);
+        Cats1.SetActive(false);
+
+        if (CurrentButton == 0)
+        {
+            Cat1.SetActive(true);
+        }
+
+        if (CurrentButton == 1)
+        {
+            Cat2.SetActive(true);
+        }
+        if (CurrentButton == 2)
+        {
+            Cat3.SetActive(true);
+        }
+        
+        if (CurrentButton == 3)
+        {
+            Cat4.SetActive(true);
+        }
+
+        if (CurrentButton == 4)
+        {
+            Cat5.SetActive(true);
+        }
+
+        if (CurrentButton == 5)
+        {
+            Cat6.SetActive(true);
+        }
+        if (CurrentButton == 6)
+        {
+            Cat7.SetActive(true);
+        }
+        
+        if (CurrentButton == 7)
+        {
+            Cat8.SetActive(true);
+        }
+
+        if (CurrentButton == 8)
+        {
+            Cat9.SetActive(true);
+        }
+
+        if (CurrentButton == 9)
+        {
+            Cat10.SetActive(true);
+        }
+        if (CurrentButton == 10)
+        {
+            Cat11.SetActive(true);
+        }
+        
+        if (CurrentButton == 11)
+        {
+            Cat12.SetActive(true);
+        }
+
+        if (CurrentButton == 12)
+        {
+            Cat13.SetActive(true);
+        }
+
+        if (CurrentButton == 13)
+        {
+            Cat14.SetActive(true);
+        }
+        if (CurrentButton == 14)
+        {
+            Cat15.SetActive(true);
+        }
+        
+        if (CurrentButton == 15)
+        {
+            Cat16.SetActive(true);
+        }
+
+        if (CurrentButton == 16)
+        {
+            Cat17.SetActive(true);
+        }
+
+        if (CurrentButton == 17)
+        {
+            Cat18.SetActive(true);
+        }
+        if (CurrentButton == 18)
+        {
+            Cat19.SetActive(true);
+        }
+        
+        if (CurrentButton == 19)
+        {
+            Cat20.SetActive(true);
         }
     }
 
